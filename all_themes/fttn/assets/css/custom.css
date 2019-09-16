@@ -1,0 +1,237 @@
+.new-prodeuct {
+    background-color: #fff;
+    border-bottom: 1px solid gainsboro;
+    padding-left: 17px;
+}
+
+.prohome {
+    border: 1px solid gainsboro;
+    margin: 10px -9px;
+    border-radius: 5px;
+    padding: 12px;
+}
+
+.partner {
+    border-radius: 8px;
+    margin-right: 8px;
+    border: 1px solid gainsboro;
+    background-color: ghostwhite;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.p {
+    border-top: 1px solid gainsboro;
+}
+
+.b {
+    margin-top: 40px;
+}
+
+.aboutm {
+    margin-top: 20px;
+}
+
+/*------------boooking form-----------*/
+
+.cu-info-neostore {
+    background: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid #e1e1e1;
+}
+
+.product-details-neostore {
+    background: #fff;
+    border: 1px solid #e1e1e1;
+    float: right;
+
+    padding-left: 3%;
+    color: #313131;
+    padding-right: 10px;
+}
+
+.neostore-payment-method-step {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.section_content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.order-summery-section:first-child {
+    border-top: none;
+}
+
+.order-summery-section {
+    border-top: 1px solid;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    border-color: #e1e1e1;
+    float: left;
+    width: 100%;
+}
+
+.product-neostore {
+    display: table;
+    vertical-align: middle;
+    margin-bottom: 25px;
+}
+
+.product-image1 {
+    display: table-cell;
+    float: left;
+    position: relative;
+    vertical-align: middle;
+    border: 1px solid #e1e1e1;
+}
+
+.product-desc-neostore {
+    padding-left: 10px;
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 10px;
+    width: 60%;
+}
+
+.product__price_neostore {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.total-line-table {
+    display: table;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.total-line {
+    display: table-row;
+    vertical-align: middle;
+    line-height: 30px;
+}
+
+.total-line > div:first-child {
+    display: table-cell;
+    text-align: left;
+}
+
+span.order-summary__emphasis {
+    padding: 0;
+    color: orange;
+    font-weight: 600;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: orange;
+    border-color: orange;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: orange;
+    border-color: orange;
+}
+
+.product-quantity {
+    border-radius: 2em;
+    font-size: 0.85714em;
+    font-weight: 500;
+    padding: 0.15em 0.5em;
+    min-width: 0.8em;
+    position: absolute;
+    text-align: center;
+    right: -0.75em;
+    top: -0.75em;
+    color: white;
+    background-color: rgba(153, 153, 153, 0.9);
+}
+
+.order-summery-section:first-child {
+    border-top: none;
+}
+
+.order-summery-section {
+    border-top: 1px solid;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    border-color: #e1e1e1;
+    float: left;
+    width: 100%;
+}
+
+@media (max-width: 480px) {
+    .section_content, .cu-info-neostore {
+        float: left;
+        width: 100%;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+
+    @media (max-width: 639px) {
+        .wrapper {
+            width: 96%;
+            transition: 0.5s;
+        }
+
+        @media (max-width: 799px) {
+            .wrapper {
+                width: 620px;
+                transition: 0.5s;
+            }
+
+            @media (max-width: 979px) {
+                .wrapper {
+                    width: 780px;
+                    transition: 0.5s;
+                }
+
+                @media (max-width: 1170px) {
+                    .wrapper {
+                        width: 960px;
+                        transition: 0.5s;
+                    }
+
+                    @media (min-width: 1170px) {
+                        .wrapper {
+                            transition: 0.5s;
+                        }
+
+                        /*------------boooking form end-----------*/
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
+
+                        .pa {
+                            border: 1px solid orange;
+                            padding: 19px;
+                            margin-top: 15px;
+                            margin-bottom: 15px;
+                            border-radius: 6px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.lb-close {
+    margin-top: -35px;
+}
+button a {
+    color: white;
+}
+.dropdown-menu .navbar-nav > li {
+    float: none;
+}
+.dropdown-open > .dropdown-menu {
+    min-widows: 300px;
+}
+select{
+    -moz-appearance: none;
+}
